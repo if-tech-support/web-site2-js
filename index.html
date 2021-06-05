@@ -3,39 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Accordion</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   </head>
   <body>
-    <div id="app">
-      <accordion class="menu--red">
-        <h1 class="menu__title" slot="title">アコーディオン1</h1>
-        <div class="menu__content" slot="content">
-          <p class="menu__text">アコーデオン1の中身</p>
-          <p class="menu__text">アコーデオン1の中身</p>
+    <main >
+      <div class="menu">
+        <div class="menu-title">
+          <h1>アコーディオン1</h1>
+          <i class="fas fa-angle-down fa-2x menu-icon"></i>
+          <i class="fas fa-angle-up fa-2x menu-icon is-close"></i>
         </div>
-      </accordion>
-      <accordion class="menu--blue">
-        <h1 class="menu__title" slot="title">アコーディオン2</h1>
-        <div class="menu__content" slot="content">
-          <p class="menu__text">アコーデオン2の中身</p>
-          <p class="menu__text">アコーデオン2の中身</p>
+        <div class="menu-content is-close">
+          <p class="menu-text">アコーデオン1の中身</p>
+          <p class="menu-text">アコーデオン1の中身</p>
         </div>
-      </accordion>
-      <accordion class="menu--green">
-        <h1 class="menu__title" slot="title">アコーディオン3</h1>
-        <div class="menu__content" slot="content">
-          <p class="menu__text">アコーデオン3の中身</p>
-          <p class="menu__text">アコーデオン3の中身</p>
+        <div class="menu-title">
+          <h1>アコーディオン2</h1>
+          <i class="fas fa-angle-down fa-2x menu-icon"></i>
+          <i class="fas fa-angle-up fa-2x menu-icon is-close"></i>
         </div>
-      </accordion>
-    </div>
+        <div class="menu-content is-close">
+          <p class="menu-text">アコーデオン2の中身</p>
+          <p class="menu-text">アコーデオン2の中身</p>
+        </div>
+      </div>
+    </main>
 
-    <script src="app.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
