@@ -38,3 +38,8 @@
 .is-open {
   display: block !important;
 }
+
+.another-page {
+  margin-top: 200px;
+  text-align: center;
+}
