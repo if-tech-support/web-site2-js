@@ -30,13 +30,8 @@
 }
 
 /* JSで変更を加えるスタイル */
-
-.is-close {
+.show-accordion {
   display: none !important;
-}
-
-.is-open {
-  display: block !important;
 }
 
 .another-page {

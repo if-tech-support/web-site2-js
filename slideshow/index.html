@@ -10,17 +10,20 @@
 
 <body>
   <div class="slideshow-container">
-    <img id="slide-image" src="slideshow-images/image1.jpg">
+    <img id="slide-image" src="/slideshow/images/image1.jpg">
   </div>
 
   <div class="button-container">
     <button id="start-btn">Start</button>
-    <button id="stop-btn">Stop</button>
+    <button id="stop-btn" disabled>Stop</button>
+    <button id="next-btn" >Next</button>
+    <button id="prev-btn" >Prev</button>
   </div>
 
   <div class="another-page">
-    <a href="index.html" style="margin-right: 30px;">Modalページへ</a>
-    <a href="accordion.html">Accordionページへ</a>
+    <a href="/modal/index.html" style="margin-right: 30px;">Modalページへ</a>
+    <a href="/accordion/index.html" style="margin-right: 30px;">Accordionページへ</a>
+    <a href="/index.html">TOPページへ</a>
   </div>
   <script src="slideshow.js"></script>
 </body>
