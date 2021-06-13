@@ -15,18 +15,18 @@
   // アコーディオンを開く処理
   function openContents() {
     let index = 0;
-    menuContents[index].classList.remove('show-accordion');
-    upArrows[index].classList.remove('show-accordion');
-    downArrows[index].classList.add('show-accordion');
+    menuContents[index].classList.remove('close-accordion');
+    upArrows[index].classList.remove('close-accordion');
+    downArrows[index].classList.add('close-accordion');
     index++
   }
 
   // アコーディオンを閉じる処理
   function closeContents() {
     let index = 0;
-    menuContents[index].classList.add('show-accordion');
-    upArrows[index].classList.add('show-accordion');
-    downArrows[index].classList.remove('show-accordion');
+    menuContents[index].classList.add('close-accordion');
+    upArrows[index].classList.add('close-accordion');
+    downArrows[index].classList.remove('close-accordion');
     index++
   }
 
