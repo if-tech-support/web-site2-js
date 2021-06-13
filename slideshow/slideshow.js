@@ -27,7 +27,7 @@
   // Slideshowをストップさせるボタン要素
   const stopBtn = document.getElementById('stop-btn');
   // setTimeoutを止める為の変数
-  let timeoutId;
+  let intervalId;
 
 
   //
@@ -53,7 +53,7 @@
     startBtn.disabled = true
     stopBtn.disabled = false
 
-    timeoutId = setInterval(nextSlide, 1000);
+    intervalId = setInterval(nextSlide, 1000);
   }
 
   // 画像が自動切り替えを止める処理
@@ -61,7 +61,7 @@
     startBtn.disabled = false
     stopBtn.disabled = true
 
-    clearInterval(timeoutId);
+    clearInterval(intervalId);
   }
 
   //
