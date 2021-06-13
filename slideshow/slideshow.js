@@ -7,10 +7,10 @@
 
   // Slideshowに持ち入る画像を格納
   const images = [
-    '/slideshow/images/image1.jpg',
-    '/slideshow/images/image2.jpg',
-    '/slideshow/images/image3.jpg',
-    '/slideshow/images/image4.jpg',
+    '/web-site2/slideshow/images/image1.jpg',
+    '/web-site2/slideshow/images/image2.jpg',
+    '/web-site2/slideshow/images/image3.jpg',
+    '/web-site2/slideshow/images/image4.jpg',
   ];
 
   // メイン画像に描画されるimagesのindexを指定する変数
