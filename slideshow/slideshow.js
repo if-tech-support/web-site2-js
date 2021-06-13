@@ -5,6 +5,7 @@
   // Slideshowの変数宣言
   //
 
+  
   // Slideshowに持ち入る画像を格納
   const images = [
     '/web-site2/slideshow/images/image1.jpg',
