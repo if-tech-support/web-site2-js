@@ -30,7 +30,7 @@
 }
 
 /* JSで変更を加えるスタイル */
-.show-accordion {
+.close-accordion {
   display: none !important;
 }
 
