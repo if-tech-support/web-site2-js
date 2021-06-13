@@ -53,14 +53,14 @@
     startBtn.disabled = true
     stopBtn.disabled = false
 
-    timeoutId = setInterval(() => nextSlide(), 1000);
+    timeoutId = setInterval(nextSlide, 1000);
   }
 
   // 画像が自動切り替えを止める処理
   function stopSlide() {
     startBtn.disabled = false
     stopBtn.disabled = true
-    
+
     clearInterval(timeoutId);
   }
 
@@ -69,10 +69,10 @@
   //
 
   // クリックしたら次の画像に切り替える処理
-  nextBtn.addEventListener('click',  nextSlide)
+  nextBtn.addEventListener('click', nextSlide);
 
   // クリックしたら前の画像に切り替える処理
-  prevBtn.addEventListener('click',  prevSlide)
+  prevBtn.addEventListener('click', prevSlide);
 
   // クリックしたらSlideshowをスタートする処理
   startBtn.addEventListener('click', startSlide);
