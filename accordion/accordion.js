@@ -26,7 +26,7 @@
     upArrow.addEventListener('click', function () {
       menuContents[index].classList.add('display-none');
       upArrows[index].classList.add('display-none');
-      upArrows[index].classList.remove('display-none');
+      downArrows[index].classList.remove('display-none');
     })
   });
 
