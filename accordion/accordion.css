@@ -31,7 +31,7 @@
 
 /* JSで変更を加えるスタイル */
 .display-none {
-  display: none !important;
+  display: none;
 }
 
 .another-page {
