@@ -53,6 +53,8 @@
   function startSlide() {
     startBtn.disabled = true
     stopBtn.disabled = false
+    nextBtn.disabled = true
+    prevBtn.disabled = true
 
     intervalId = setInterval(nextSlide, 1000);
   }
@@ -61,6 +63,8 @@
   function stopSlide() {
     startBtn.disabled = false
     stopBtn.disabled = true
+    nextBtn.disabled = false
+    prevBtn.disabled = false
 
     clearInterval(intervalId);
   }
