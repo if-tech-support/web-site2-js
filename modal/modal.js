@@ -7,8 +7,8 @@
 
 
   // Modal の表示/非表示を切り替える処理(関数)
-  function changeModal(isClosed) {
-    if (isClosed) {
+  function changeModal(showModal) {
+    if (showModal) {
       modal.classList.add('show-modal')
     } else {
       modal.classList.remove('show-modal')
