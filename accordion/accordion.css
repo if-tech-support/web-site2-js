@@ -30,7 +30,7 @@
 }
 
 /* JSで変更を加えるスタイル */
-.display-none {
+main .display-none {
   display: none;
 }
 
