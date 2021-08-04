@@ -8,10 +8,10 @@
   
   // Slideshowに持ち入る画像を格納
   const images = [
-    'https://if-tech-support.github.io/web-site2/slideshow/images/image1.jpg',
-    'https://if-tech-support.github.io/web-site2/slideshow/images/image2.jpg',
-    'https://if-tech-support.github.io/web-site2/slideshow/images/image3.jpg',
-    'https://if-tech-support.github.io/web-site2/slideshow/images/image4.jpg',
+    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image1.jpg',
+    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image2.jpg',
+    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image3.jpg',
+    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image4.jpg',
   ];
 
   // メイン画像に描画されるimagesのindexを指定する変数
@@ -37,16 +37,16 @@
 
   // 画像を１つ次に進める処理
   function nextSlide() {
-    slideImage.src = images[currentIndex];
     currentIndex++;
     if (currentIndex > images.length - 1) currentIndex = 0;
+    slideImage.src = images[currentIndex];
   }
 
   // 画像を１つ前に戻す処理
   function prevSlide() {
-    slideImage.src = images[currentIndex];
     currentIndex--;
     if (currentIndex < 0)  currentIndex = images.length - 1;
+    slideImage.src = images[currentIndex];
   }
 
   // 画像を1秒ごとに切り替える処理
