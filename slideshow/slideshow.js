@@ -8,10 +8,10 @@
   
   // Slideshowに持ち入る画像を格納
   const images = [
-    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image1.jpg',
-    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image2.jpg',
-    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image3.jpg',
-    'https://github.com/if-tech-support/web-site2-js/slideshow/images/image4.jpg',
+    '/web-site2-js/slideshow/images/image1.jpg',
+    '/web-site2-js/slideshow/images/image2.jpg',
+    '/web-site2-js/slideshow/images/image3.jpg',
+    '/web-site2-js/slideshow/slideshow/images/image4.jpg',
   ];
 
   // メイン画像に描画されるimagesのindexを指定する変数
