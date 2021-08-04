@@ -62,7 +62,7 @@
 }
 
 .show-modal {
-  display: block !important;
+  display: block;
 }
 
 .another-page {
