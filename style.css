@@ -1,0 +1,20 @@
+.top {
+  text-align: center;
+  margin: 100px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.another-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.another-page a {
+  margin-right: 30px;
+}
+
+.another-page a:last-child {
+  margin-right: 0;
+}
