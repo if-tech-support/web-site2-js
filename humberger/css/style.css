@@ -1,0 +1,232 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+html {
+  font-size: 16px;
+}
+body {
+  letter-spacing: 2px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+main {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.section-title {
+  z-index: 5;
+  font-size: 2.5rem;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+}
+.header .title {
+  padding: 20px 0 0 50px;
+  width: 200px;
+}
+
+/* ハンバーガーメニューのナビゲーションの設定 */
+#hamburger-navigation {
+
+}
+/*
+ハンバーガーメニューがクリックされた際に、JavaScriptで#hamburger-navigationにactiveクラスを追加して、
+メニューを表示させる。
+*/
+#hamburger-navigation.active {
+
+}
+#hamburger-navigation img {
+
+}
+#hamburger-navigation .sections {
+
+}
+#hamburger-navigation .sections li {
+
+}
+#hamburger-navigation .sections a {
+
+}
+
+/* ハンバーガ―メニューの見た目部分の設定 */
+.hamburger-menu {
+
+}
+.hamburger-menu:hover {
+
+}
+/* ハンバーガーメニューの線の設定（初期の三本線の状態） */
+.hamburger-menu span {
+
+}
+/* 1本目の線の位置 */
+.hamburger-menu span:nth-child(1) {
+
+}
+/* 2本目の線の位置 */
+.hamburger-menu span:nth-child(2) {
+
+}
+/* 3本目の線の位置 */
+.hamburger-menu span:nth-child(3) {
+
+}
+
+/* ハンバーガーメニューの線の設定（クリックされてメニューが表示されている際の、バツ印の状態） */
+/* 1本目の線を-45度回転 */
+.hamburger-menu.active span:nth-child(1) {
+
+}
+/* 2本目と3本目は重ねて45度回転 */
+.hamburger-menu.active span:nth-child(2),
+.hamburger-menu.active span:nth-child(3) {
+
+}
+
+/*-------------------------------------------
+ファーストビュー
+-------------------------------------------*/
+#firstview {
+  margin-bottom: 10%;
+  padding-top: 100px;
+}
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about {
+  margin-bottom: 10%;
+  margin-top:-100px;
+  padding-top:100px;
+}
+
+/*-------------------------------------------
+Service
+-------------------------------------------*/
+#service {
+  margin-bottom: 10%;
+  margin-top:-100px;
+  padding-top:100px;
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works {
+  margin-bottom: 10%;
+  margin-top:-100px;
+  padding-top:100px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+#footer {
+  background-color: #e8e8e9;
+  padding: 100px 0 100px 0;
+}
+
+#footer p {
+  text-align: center;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 900px) {
+  main {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+
+  /*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+  .header {
+    padding: 25px 0 0 25px;
+  }
+  .header .title {
+    width: 120px;
+    padding: 0;
+  }
+
+  /* ハンバーガーメニューのナビゲーション */
+  #hamburger-navigation img {
+    width: 120px;
+    top: 25px;
+    left: 25px;
+  }
+  #hamburger-navigation .sections {
+    margin-top: 110px;
+  }
+  #hamburger-navigation .sections a {
+    margin-top: 110px;
+    font-size: 16px;
+  }
+  
+  /* ハンバーガ―メニュー */
+  .hamburger-menu {
+    width: 56px;
+    height: 56px;
+    margin: 0 25px 0 0;
+  }
+  .hamburger-menu span {
+    width: 35px;
+    left: 10px;
+  }
+  .hamburger-menu span:nth-child(1) {
+    top: 16px;
+  }
+  .hamburger-menu span:nth-child(2) {
+    top: 27px;
+  }
+  .hamburger-menu span:nth-child(3) {
+    top: 38px;
+  }
+  .hamburger-menu.active span:nth-child(1) {
+    top: 27px;
+    left: 10px;
+  }
+  .hamburger-menu.active span:nth-child(2),
+  .hamburger-menu.active span:nth-child(3) {
+    top: 27px;
+  }
+  /*-------------------------------------------
+  Works
+  -------------------------------------------*/
+  #works {
+    margin-bottom: 60%;
+  }
+  /*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+  #footer p {
+    font-size: 12px;
+  }
+}
