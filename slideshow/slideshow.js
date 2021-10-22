@@ -5,13 +5,13 @@
   // Slideshowの変数宣言
   //
 
-  
+
   // Slideshowに持ち入る画像を格納
   const images = [
-    '/web-site2-js/slideshow/images/image1.jpg',
-    '/web-site2-js/slideshow/images/image2.jpg',
-    '/web-site2-js/slideshow/images/image3.jpg',
-    '/web-site2-js/slideshow/images/image4.jpg',
+    'images/image1.jpg',
+    'images/image2.jpg',
+    'images/image3.jpg',
+    'images/image4.jpg',
   ];
 
   // メイン画像に描画されるimagesのindexを指定する変数
@@ -45,7 +45,7 @@
   // 画像を１つ前に戻す処理
   function prevSlide() {
     currentIndex--;
-    if (currentIndex < 0)  currentIndex = images.length - 1;
+    if (currentIndex < 0) currentIndex = images.length - 1;
     slideImage.src = images[currentIndex];
   }
 
