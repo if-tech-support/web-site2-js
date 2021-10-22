@@ -10,7 +10,7 @@ accordion フォルダ
 
 アコーディオン機能を学習するためのファイルです。  
 
-リンク：https://if-tech.gitbook.io/web/saitonikiwokeru/ru-men-bian/akdion
+リンク：https://if-tech.gitbook.io/web/saitonikiwokeru/akdion
 
 modal フォルダ
 
