@@ -11,7 +11,7 @@
   const navi = document.getElementById("hamburger-navigation");
 
   // ハンバーガーメニュー内の各セクションの要素
-  const humbergerMenuSections = document.querySelectorAll(".humberger-menu-section");
+  const hamburgerMenuSections = document.querySelectorAll(".hamburger-menu-section");
 
   // ハンバーガーメニューをクリックした時の処理
   hamburgerMenu.addEventListener("click", function () {
@@ -22,9 +22,9 @@
   });
 
   // ハンバーガーメニュー内の各セクションをクリックした際、開いていたハンバーガーメニューを閉じる
-  humbergerMenuSections.forEach((humbergerMenuSection) => {
-    console.log(humbergerMenuSection);
-    humbergerMenuSection.addEventListener("click", function () {
+  hamburgerMenuSections.forEach((hamburgerMenuSection) => {
+    console.log(hamburgerMenuSection);
+    hamburgerMenuSection.addEventListener("click", function () {
       hamburgerMenu.classList.remove("active");
       navi.classList.remove("active");
     });
